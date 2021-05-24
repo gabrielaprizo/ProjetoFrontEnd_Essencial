@@ -3,19 +3,20 @@ body {
   background-color: #fff;
 }
 
-.patagonia .bgPtg {
-  background-color: #a79d0f !important;
-}
-.patagonia nav.navbar {
+.bgPtg {
   background-color: #a79d0f !important;
 }
 
-.patagonia nav.navbar a{
+nav.navbar {
+  background-color: #a79d0f !important;
+}
+
+nav.navbar a{
   color: #fff !important;
   font-weight: bold;
 }
 
-.patagonia nav.navbar ul.dropdown-menu a {
+nav.navbar ul.dropdown-menu a {
   color: #525252 !important;
   font-weight: normal !important;
 }
@@ -102,8 +103,8 @@ h5{
   margin: 0 0 0 20px;
 }
 
-.patagonia .navbar-nav,
-.patagonia .me-auto {
+.navbar-nav,
+.me-auto {
   flex: 1;
   margin: auto !important;
   display: flex;
@@ -162,6 +163,45 @@ address {
   background-size: cover;
 }
 
+.amsterdam {
+  background: url('../img/amsterdam/oficina-de-inverno-campos-de-flores-na-holanda-primavera-keukenhof.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.victoria {
+  background: url('../img/nova-zelandia/Lower-Hutt.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.santiago {
+  background: url('../img/santiago/palaciolamoneda.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.lisboa {
+  background: url('../img/lisboa/ascensor-da-bica.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.rioJaneiro {
+  background: url('../img/rio-de-janeiro/rio-por-do-sol.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 
 .footer-newsletter {
   margin-top:1em;
@@ -169,4 +209,9 @@ address {
 
 .quem-somos-items div.card {
   margin-bottom: 1em;
+}
+
+.carouselImgSize {
+  width: 286px;
+  height: 200px;
 }
